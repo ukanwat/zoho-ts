@@ -27,7 +27,6 @@
   "scripts": {
     "build": "tsc",
     "dev": "pnpm tsc --watch --preserveWatchOutput",
-    "prepublish": "pnpm build",
     "format": "prettier --write .",
     "fmt": "pnpm lint && pnpm format",
     "lint": "eslint . --ext ts --ext tsx --ext js --fix",
